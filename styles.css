@@ -249,6 +249,13 @@ header {
 }
 
 /* ------------- media queries ------------- */
+@media screen and (max-width: 1120px) {
+	/* ---------- top articles ---------- */
+	.top-articles {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
 @media screen and (max-width: 768px) {
 	header {
 		position: relative;
@@ -292,6 +299,11 @@ header {
 
 	.hero--content-body {
 		flex-direction: column;
+	}
+
+	/* ---------- top articles ---------- */
+	.top-articles {
+		grid-template-columns: repeat(1, 1fr);
 	}
 
 	/* --------- shared classes --------- */

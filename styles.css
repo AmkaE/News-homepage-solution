@@ -203,6 +203,43 @@ header {
 	color: var(--dark-grayish-blue);
 }
 
+/* ---------- top articles ---------- */
+.top-articles {
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.top--article {
+	display: flex;
+}
+
+.top--article-img {
+	height: 200px;
+}
+
+.top--article-body {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+	padding: 0 1rem;
+}
+
+.top--article-body h3.top--article-num {
+	font-size: 2rem;
+	color: var(--grayish-blue);
+}
+
+.top--article-body h3.top--article-title {
+	font-size: 1rem;
+	color: var(--very-dark-blue);
+}
+
+.top--article-body p {
+	font-size: 0.9rem;
+	color: var(--dark-grayish-blue);
+}
+
 .attribution {
 	font-size: 11px;
 	text-align: center;

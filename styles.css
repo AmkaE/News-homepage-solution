@@ -248,6 +248,16 @@ header {
 		display: none;
 	}
 
+	/* ---------- hero section ---------- */
+	.hero {
+		grid-template-columns: 1fr;
+	}
+
+	.hero--content-body {
+		flex-direction: column;
+	}
+
+	/* --------- shared classes --------- */
 	.show {
 		display: flex;
 	}

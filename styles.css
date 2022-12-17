@@ -1,5 +1,7 @@
+/* -------------- fonts ------------- */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 
+/* ------------ variables ----------- */
 :root {
 	--soft-orange: hsl(35, 77%, 62%);
 	--soft-red: hsl(5, 85%, 63%);
@@ -10,6 +12,7 @@
 	--chinese-blue: hsl(228, 45%, 44%);
 }
 
+/* ------------- core styles and resets ------------- */
 *,
 *::before,
 *::after {
@@ -51,6 +54,48 @@ h2 {
 
 h3 {
 	font-size: 1.17rem;
+}
+
+/* -------------- utils ------------- */
+.nav,
+.hero,
+.top-articles,
+.attribution {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 1.5rem 1rem;
+}
+
+/* ------------- header ------------- */
+header {
+	width: 100%;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav--logo {
+	font-size: 1.5rem;
+	font-weight: 800;
+}
+
+.nav--logo img {
+	width: 50px;
+}
+
+.nav--links {
+	display: flex;
+	justify-items: center;
+	gap: 1.5rem;
+}
+
+.nav--links a.nav--link {
+	color: var(--dark-grayish-blue);
+	font-size: 0.9rem;
+	text-transform: capitalize;
 }
 
 .attribution {

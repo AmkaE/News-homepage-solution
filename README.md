@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/insure-landing-page-challenge-solution-Y0Uq7XA9Xp)
-- Live Site URL: [Live Site URL](https://insure-landing-page-gold-tau.vercel.app/)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/news-homepage-I5TEjFGDPO)
+- Live Site URL: [Live Site URL](https://news-homepage-solution.vercel.app/)
 
 ## My process
 
